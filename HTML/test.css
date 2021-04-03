@@ -1,0 +1,25 @@
+  
+  /*
+      flex-direction: row  -  ana eksen 'x' ekseni ve ona göre sıralınır.
+  
+      flex-direction: column - ana eksen 'y' ekseni ve ona göre sıralanır.
+  
+      flex-direction: row-reverse - sağdan sola
+  
+      flex-direction: column-reverse - soldan sağa
+  */
+
+  .container{
+    background-color: yellow;
+    height: 450px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    margin: 5px;
+  }

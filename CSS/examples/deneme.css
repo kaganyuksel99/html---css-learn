@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+} 
+
+p {
+    border: 2px solid tomato; 
+    border-radius: 10px;
+    width: 50px; 
+    margin-left: inherit; 
+    padding: 10px;
+}
+.ilk {
+    background-color: lawngreen;
+    width: 250px;
+    padding: 25px;
+    box-sizing: border-box;  /* Verilen 25px paddin ile genişlik 300px'e yükselir. box-sizin ile 250'de kalması sağlanır. */
+}

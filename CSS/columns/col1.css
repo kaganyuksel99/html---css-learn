@@ -1,0 +1,13 @@
+/*  
+column-count = sütun kaça bölüneceği belirtilir. 
+column-gap = sütunlar arası boşluk
+column-rule-style = Mülkiyet sütunlar arasındaki kuralının stilini belirtir: 
+column-rule-width = Mülkiyet sütunlar arasındaki kural genişliğini belirtir: 
+column-rule-color = Mülkiyet sütunlar arasındaki kural rengini belirtir:
+*/
+
+.columns  {
+    column-count: 3;
+    column-gap: 20px; 
+    column-rule: 2px solid red; 
+}

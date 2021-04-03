@@ -1,0 +1,10 @@
+/*
+body {
+    background-color: sandybrown;
+}
+@media screen and (min-width: 480px) {    sayfa 480 px ve daha düşük genişlikte rengi turuncu(üstteki renk olur) 
+    body {
+        background-color: springgreen;
+    }
+} 
+*/

@@ -1,0 +1,52 @@
+body {
+    font-family: 'Akaya Telivigala', cursive;
+}
+.ilk {
+    width: 300px; 
+    height: 90px;
+    border: 2px solid tomato; 
+    outline: 1px solid black; 
+    outline-offset: 5px;
+    background-color: yellow; 
+    text-align: justify; /* justify her satırda eşit genişlik olmasını sağlar. */  
+    letter-spacing: 2px;  /* harf arası boşluk */
+    position: sticky;
+}
+.gölge { 
+    text-shadow: 3px 3px 5px tomato; /* 3px gölgenin sağa kaç piksel gideceği - 3px gölgenin metnin kaç piksel aşağısında olacağı ve 
+    diğer değer ise bulanıklık oranı */
+} 
+a {
+    background-color: #4834d4;  
+    color: #ff7979;
+    padding: 10px; 
+    border: 2px solid ; 
+    text-decoration: none;
+    border-radius: 10px; 
+    display: inline-block;
+}
+a:hover:visited {
+    background-color: #7ed6df;
+    color: #535c68;
+} 
+ul {
+    list-style-type: none;
+}
+table {
+    border-collapse: collapse;
+} 
+table,th, td {
+    border-collapse: collapse;
+    border: 1px solid green;
+    width: 50%; 
+    padding: 15px;
+} 
+/* tr:hover {
+    background-color: #b8adad;
+} */
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+li {
+    display: inline-block; /* normal olarak yazdırdığımız li'ler alt alta geliyor. inline-block ile yan yana getirdik. */
+}

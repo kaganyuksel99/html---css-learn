@@ -1,0 +1,61 @@
+.asd {
+    border: 1px solid tomato;
+    width: 200px;
+    padding: 50px;
+    margin: auto; /* bulunduğu yerde ortalar */
+    text-align: center;
+} 
+img {
+    display: block; /* ortalamak için resmi block aldık */
+    margin-left: auto;
+    margin-right: auto;
+    /* opacity: 0.5; */
+
+}
+img:hover {
+    opacity: 0.5;
+}
+p.deneme::first-line {  /* ilk satırın rengini seçtik. class'ı deneme olan koda eriştik */
+    color: blue;
+} 
+
+/* p.deneme::before "p tagının başladığı yerin öncesine bir şey eklemek ya da erişmek için kullanılır"
+p.deneme::after  "p tagının başladığı yerin sonrasına bir şey eklemek ya da erişmek için kullanılır"
+p.deneme::marker ul li gibi listelerin önündeki 
+
+*/
+ul {
+    list-style-type: none;
+    width: 250px;
+    height: 100px;
+    background-color: red;
+    border: 3px solid yellow;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+}
+li a:hover {
+    background-color: violet;
+}
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px; 
+    margin: 15px 0;
+    box-sizing: border-box; 
+    border: 3px solid #ccc; 
+    transition: 0.5s;
+    outline: none; /* forma tıklandığında etrafı siyah olur. bu özellik sayesinde olmuyor. */ 
+    border-radius: 15px;
+}
+input[type=text]:focus {
+    background-color: #f6e58d; 
+    border: 3px solid salmon; 
+    color: seagreen;
+}

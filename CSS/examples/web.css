@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.header {
+    background-color: brown;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.nav {
+    background-color: #ffeaa7;
+    overflow: hidden;
+
+}
+.nav a {
+    float: left;
+    display: block;
+    color: darkred;
+    text-align: center; 
+    padding: 20px 30px;
+    margin: auto;
+    text-decoration: none; 
+    transition: 0.5s;
+}
+.nav a:hover{
+    background-color: rgb(59, 183, 241);
+    color: black;
+    border: 2px solid red;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    border: 2px solid tomato;
+}
+.footer {
+    position: relative;
+    top: 170px;
+    background-color: #f1f1f1;
+    text-align: center;    
+}

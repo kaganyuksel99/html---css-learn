@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box; 
+/* dolgunun ve kenarlığın, öğelerin toplam genişliğine ve yüksekliğine dahil edilmesini sağlar.*/
+}
+.header {
+    border:  1px solid red;
+    padding: 15px;
+}
+.menu {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+.main {
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+} 
+@media only screen and (max-width: 600px) { /* ekran genişliği 600px ve aşağısında arkaplan mavi olur */
+    body {
+      background-color: lightblue;
+    }
+}

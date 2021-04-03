@@ -1,0 +1,69 @@
+.a-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: dodgerblue; /* kutular soldan sağa 1 2 3 şeklinde sıralanır. inline block şeklinde 
+    düşünülebilir. sayfa küçüldükçe kutular aşağı iner sığması için */
+}
+.a-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px; 
+    text-align: center;
+    line-height: 75px; 
+    font-size: 30px;
+} 
+.b-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: dodgerblue; /* kutular soldan sağa 1 2 3 şeklinde sıralanır. sayfa küçüldükçe 
+    kutuların genişşiği düşer satıra sığmaya çalışır. Ama yukardaki gibi aşağı inme durumu olmaz duruma göre
+    en sondaki kutulardan görüntülenmeme olur. */
+}
+.b-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px; 
+    text-align: center;
+    line-height: 75px; 
+    font-size: 30px;
+}
+.c-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: dodgerblue; /* kutular aşağıdan 1 2 3 şeklinde sıralanır. en üstten örneğimizde 9 10 11 12
+    bulunur. en üstteki örneğin tam tersidir. (wrap)  */
+}
+.c-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px; 
+    text-align: center;
+    line-height: 75px;  
+    font-size: 30px;
+} 
+.d-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: dodgerblue; /*Flex-flow özelliği, hem flex-direction hem de flex-wrap özelliklerini ayarlamak için kısa bir özelliktir. */
+}
+.d-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px; 
+    text-align: center;
+    line-height: 75px;  
+    font-size: 30px;
+}
+.a-container {
+    display: flex;
+    justify-content: center;  
+}
+.a-container > div {
+    background-color:  #f1f1f1; 
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    line-height: 40px;
+    font-size: 20px;
+}

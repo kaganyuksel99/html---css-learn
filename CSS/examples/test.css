@@ -1,0 +1,20 @@
+body {
+    background-image: url("a.png");
+    background-repeat: repeat-x; /* GÖRÜNTÜ YATAY OLARAK TEKRARLANDIĞINDA DAHA İYİ BİR GÖRÜNTÜ VERİR 
+                                                -y ile dikey tekrarlanmaları düzeltiriz*/
+}
+h1 {
+    background-color: seagreen; 
+    
+}
+p.ilk {
+    border: 2px solid tomato; 
+    padding: 10px;
+} 
+.asd {
+    background-color: tomato;
+    opacity: 1;
+}
+.aq{
+    border: 2px double red;
+}

@@ -1,0 +1,46 @@
+.asd {
+    position: static; /* static ile top left right ve bottom değerlerini geçersiz kıldık */
+    top: 50px;
+    left: 50px;
+    color: hotpink;
+}
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: palegreen ; 
+    
+}
+ul,li {
+    display: inline-block;
+    left: 5px;
+    padding-left: 20px;
+} 
+.metin {
+    position: relative;
+    width: 250px;
+    height: 100px;
+    background-color: red ;
+    overflow: auto;  /* içerideki yazılar verilen alana sığmadığı zaman overflow değeri verilir. */
+}
+.satir {
+    float: left;
+    width: 100%;
+    background-color:sandybrown;
+}
+* {
+    box-sizing: border-box;  /* kutuların yan yana durmasını ya da verilen yere sığdırır */
+  }
+  
+  .box {
+    float: left;
+    width: 50%;
+    padding: 50px;
+    height: 300px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

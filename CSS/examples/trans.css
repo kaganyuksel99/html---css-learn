@@ -1,0 +1,22 @@
+.xy {
+    width: 250px;
+    height: 150px;
+    background-color: rgb(214, 203, 199); 
+    border:  2px solid tomato; 
+    transform: translate(80px,20px); /* ilk sayı x ikinci sayı y olarak şekli bulınduğu yere göre konumlar */
+} 
+.tw {
+    width: 250px;
+    height: 200px; 
+    background-color: turquoise;
+    border: 2px solid yellow;
+    transform: rotate(20deg); /* verilen değere göre saat yönünde döner. Verilen -20deg ile tersi yönde döner */ 
+} 
+.cv {
+    margin: 50px;
+    width: 250px;
+    height: 150px; 
+    background-color: yellow; 
+    border: 2px solid black; 
+    transform: scale(2,3);
+}

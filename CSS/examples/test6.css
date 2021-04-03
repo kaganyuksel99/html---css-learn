@@ -1,0 +1,17 @@
+input[type=text] {
+    width: 100px;
+    box-sizing: border-box; 
+    border: 3px solid salmon; 
+    border-radius: 8px; 
+    outline: none; 
+    font-size: 16px;
+    background-color: seashell;
+    background-image: url(); /* arama ikonu gelecek */
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 50px; /*soldan 50px verilmesinin sebebi sola arama ikonunun gelmesidir.*/
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 25%;
+  }

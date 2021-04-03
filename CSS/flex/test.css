@@ -1,0 +1,68 @@
+.a-container {
+    display: flex;
+    background-color: cornflowerblue;
+}
+.a-container > div {
+    background-color: wheat;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.b-container {
+    display: flex;
+    background-color: cornflowerblue; 
+    flex-direction: column; /* yukardan aşağı doğru dikey olarak sıralanmasını sağlar. Sıralama 1 2 3 
+    şeklinde yani sıralamaya bağlı dikey sıralanır*/
+}
+.b-container > div {
+    background-color: wheat;
+    width: 100px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    line-height: 50px; /* satır yüksekliği. Yani her divin yüksekliği belirlenir */
+    font-size: 30px;
+} 
+.c-container {
+    display: flex; 
+    background-color: cornflowerblue; 
+    flex-direction:column-reverse;/* yukardan aşağı doğru dikey olarak sıralanmasını sağlar. Sıralama 3 2 1 "YUKARIDAKİNİN TAM TERSİ"
+    şeklinde yani sıralamaya bağlı dikey sıralanır*/
+}
+.c-container > div {
+    background-color: wheat;
+    width: 100px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    line-height: 50px; /* satır yüksekliği. Yani her divin yüksekliği belirlenir */
+    font-size: 30px;
+}
+.d-container {
+    display: flex; 
+    background-color: cornflowerblue; 
+    flex-direction:row; /* soldan sağa 1 2 3 şeklide sıralanır */
+}
+.d-container > div {
+    background-color: wheat;
+    width: 100px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    line-height: 50px; /* satır yüksekliği. Yani her divin yüksekliği belirlenir */
+    font-size: 30px;
+}  
+.e-container {
+    display: flex; 
+    background-color: cornflowerblue; 
+    flex-direction:row-reverse; /* sağdan solda 1 2 3 şeklide sıralanır. float righta benzer ************** */
+}
+.e-container > div {
+    background-color: wheat;
+    width: 100px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    line-height: 50px; /* satır yüksekliği. Yani her divin yüksekliği belirlenir */
+    font-size: 30px;
+} 

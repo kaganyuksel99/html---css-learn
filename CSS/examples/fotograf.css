@@ -1,0 +1,15 @@
+.ilk img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    border-radius: 50%;
+    filter: grayscale(100%); /* renk tonlarının çeşitleri var kullanılabilir */
+}
+.ikinci img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    filter: grayscale(100%); /* renk tonlarının çeşitleri var kullanılabilir */
+} 

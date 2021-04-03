@@ -1,0 +1,31 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.cisim {
+    background-color: cadetblue;
+    width: 200px;
+    height: 150px;
+    border: 2px solid red;
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+}
+.cisim p {
+    position: relative;
+    margin: auto;
+    padding: 28%;   
+} 
+.aktif {
+    border: 3px solid blue; 
+    background-color: transparent; 
+}
+.deneme {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    height: 150px;
+}
+.asdd {
+    background-image: radial-gradient(red, yellow, black, purple, darkblue, green);  /* en içten dışa doğru gider. Ne içte kırmızı var. */
+    height: 150px;
+}
